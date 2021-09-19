@@ -3,29 +3,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
     <title>Kirill Kovalev CV</title>
   </head>
   <body>
     <div class="container">
       <aside class="aside">
-        <div class="aside-ava">
-          ava
+        <div class="aside_ava">
+          <img src="./photo.jpg" alt="photo">
         </div>
-        <section class="Contact-information">
+        <section class="main-information">
           <h3>Contact information</h3>
-          <p class="my_contacts">
-            email: kirill.kovalev1502@mail.ru
+          <p class="second-info">
+            kirill.kovalev1502@mail.ru
           </p>
         </section>
-        <section class="education">
+        <section class="main-information">
           <h3>Education</h3>
-          <p class="my_education">
+          <p class="second-info">
             Bsuir, since 2019
           </p>
         </section>
-        <section class="languages">
+        <section class="main-information">
           <h3>Languages</h3>
-          <ul class="my_languages">
+          <ul class="second-info">
             <li>Russian : native</li>
             <li>English : A2</li>
           </ul>
@@ -33,28 +34,48 @@
       </aside>
       <main class="main">
         <header class="header">
-          <h3>My goal</h3>
-          <p class="my_goal">
-            My goal is to become a successful programmer in the field of frontend developer. Summary of Qualifications: C++, Java, Kotlin, SQL, xml. And Basic knowledge of HTML, CSS and JS.
-          </p>
+          <div class="name">
+            Kirill Kovalev
+          </div>
+          <div class="profession">
+            future front-end developer
+          </div>
         </header>
         <div class="main_wrapper">
-          <h3>Code example</h3>
-          <pre>
-            <code>
-              function rotateObjects() {
-                for (var i = 0; i < pos.length; i++) {
-                    pos[i] += inc; objects[i].visibility = 'visible';
-                    objects[i].left = (r * Math.cos(pos[i])) + xoff
-                    objects[i].top = (r * Math.sin(pos[i])) + yoff;
-                }
-                rotateTimer = setTimeout("rotateObjects()", 70);
-              }
-            </code>
-          </pre>
+          <div class="headline">My goal</div>
+          <div class="secondline">
+            My goal is to become a successful programmer in the field of frontend developer. Summary of Qualifications: C++, Java, Kotlin, SQL, xml. And Basic knowledge of HTML, CSS and JS.
+          </div>
+          <div class="headline">Code example</div>
+          <div class="secondline">
+            <pre>
+              <code>
+function rotateObjects() {
+  for (var i = 0; i < pos.length; i++) {
+    pos[i] += inc; objects[i].visibility = 'visible';
+    objects[i].left = (r * Math.cos(pos[i])) + xoff
+    objects[i].top = (r * Math.sin(pos[i])) + yoff;
+  }
+  rotateTimer = setTimeout("rotateObjects()", 70);
+  }
+              </code>
+            </pre>
+          </div>
         </div>
         <footer class="footer">
-          footer
+          <div>
+            <a href="https://github.com/DarkCrew" target="_blank">
+              <img src="./github.png" alt="github-icon">
+            </a>
+          </div>
+          <div>
+            <a href="https://rs.school/js/" target="_blank">
+              <img src="./rs_school_js.svg" alt="rsschool-icon">
+            </a>
+          </div>
+          <div class="date">
+            <p>Created in 2021</p>
+          </div>
         </footer>
       </main>
     </div>

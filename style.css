@@ -11,6 +11,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container .aside img{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
 .container .aside .main-information{
     text-transform: uppercase;
     margin-left: 20px;
