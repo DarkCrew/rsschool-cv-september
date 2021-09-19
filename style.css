@@ -1,0 +1,99 @@
+.container{
+   width: 1000px;
+   height: 100%; 
+   margin: 0 auto;
+   display: flex;
+}
+.container .aside{
+    width: 70%;
+    background: linear-gradient(to top, #17e5d2, #8345d1);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .aside img{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.container .aside .main-information{
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.container .aside .main-information .second-info{
+    margin-left: 10px;
+    text-transform: none;
+}
+
+.main{
+    background-color: #dcdcdc;
+}
+
+.main .header{
+    text-transform: uppercase;
+    background-color: #595859;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 30px 40px;
+}
+
+.main .header .name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main .header .profession{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.main .main_wrapper{
+    padding: 30px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main .main_wrapper .headline{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main .main_wrapper .secondline{
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.main .footer{
+    height: 100px;
+    background-color: #302f30;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.main .footer div{
+    height: 50px;
+}
+
+.main .footer div img{
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+.main .footer .date{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
